@@ -1,4 +1,10 @@
-export default class Descritor {
+"use strict";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const Empresa_js_1 = __importDefault(require("./Empresa.js"));
+class Descritor {
     descrever(empresa) {
         console.log(`Razão social: ${empresa.razaoSocial}`);
         console.log(`Nome fantasia: ${empresa.nomeFantasia}`);
@@ -15,3 +21,5 @@ export default class Descritor {
         });
     }
 }
+exports.default = Descritor;
+//# sourceMappingURL=Descritor.js.map

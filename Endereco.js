@@ -1,4 +1,10 @@
-export default class Endereco {
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+class Endereco {
+    numero;
+    rua;
+    bairro;
+    cidade;
     constructor(numero, rua, bairro, cidade) {
         this.numero = numero;
         this.rua = rua;
@@ -6,3 +12,5 @@ export default class Endereco {
         this.cidade = cidade;
     }
 }
+exports.default = Endereco;
+//# sourceMappingURL=Endereco.js.map
